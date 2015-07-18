@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using Leap;
+//判断一个方向（向量）是否符合特定的方向
 public class VectorCompare 
 {
 	static readonly float VerToXAxisDirThreshold = Mathf.PI * 7 / 18;//垂直x轴的方向阈值[70,180-70]
